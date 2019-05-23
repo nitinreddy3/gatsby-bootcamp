@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import Layout from '../components/Layout';
+
 
 const ContactPage = () => {
     return (
-        <div>
+        <Layout>
             <h1>Contact</h1>
             <p><a href="https://twitter.com/nitkr">Twitter</a></p>
-        </div>
+        </Layout>
     )
 }
 
